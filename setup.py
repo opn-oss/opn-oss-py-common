@@ -48,7 +48,9 @@ setup(
     license='MIT',
     author='Adam Jorgensen',
     author_email='adam.jorgensen.za@gmail.com',
-    install_requires=[],
+    install_requires=[
+        'decorator'
+    ],
     entry_points={
         'console_scripts': [
         ]
